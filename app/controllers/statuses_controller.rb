@@ -7,6 +7,10 @@ class StatusesController < ApplicationController
     @statuses = Status.all
   end
 
+  def add_view
+    render :text => $redis.get('chunky')
+  end
+
   # GET /statuses/1
   # GET /statuses/1.json
   def show

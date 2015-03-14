@@ -4,7 +4,8 @@ gem "simple_form"
 gem "devise"
 gem "omniauth-wechat-oauth2"
 gem 'redis', '2.1.1'
-gem 'mysql2'
+gem 'sqlite3', group: :development
+gem 'pg', group: :production
 
 
 
