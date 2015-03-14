@@ -2,11 +2,16 @@ source 'http://ruby.taobao.org'
 
 gem "simple_form"
 gem "devise"
+gem "omniauth-wechat-oauth2"
+gem 'redis', '2.1.1'
+gem 'pg'
+
+
+
 gem "paperclip", "~> 4.2"
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.8'
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3'
 gem 'bootstrap-sass', '~> 3.3.3'
 
 # Use SCSS for stylesheets
